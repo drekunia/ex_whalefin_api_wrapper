@@ -4,7 +4,7 @@ defmodule ExWhalefinApiWrapper.Application do
 
   def start(_type, _args) do
     children = [
-      {Finch, name: FinchHTTP}
+      {Finch, name: FincHTTP}
     ]
 
     Supervisor.start_link(children, strategy: :one_for_one)

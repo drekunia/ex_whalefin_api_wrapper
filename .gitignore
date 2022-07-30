@@ -29,3 +29,4 @@ ex_whalefin_api_wrapper-*.tar
 /.elixir_ls/
 /.vscode/
 .DS_Store
+secret.exs
